@@ -7,7 +7,7 @@ Note: This is assuming IP address are unique. To ensure each machine is unique, 
 ```
 $ npm i
 ```
-Create private/config.json and follow the format of provate/sample_config.json.
+Create private/config.json and follow the format of private/sample_config.json.
 ```
 $ node main.js
 ```
