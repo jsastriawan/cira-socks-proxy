@@ -1,0 +1,12 @@
+{
+  "name": "cira-socks-proxy",
+  "version": "1.0.0",
+  "description": "Socks proxy to tunnel connection over CIRA",
+  "main": "main.js",
+  "author": "Joko Sastriawan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "socksv5": "0.0.6",
+    "ws": "^7.3.1"
+  }
+}
