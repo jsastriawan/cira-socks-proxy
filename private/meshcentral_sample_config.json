@@ -1,0 +1,6 @@
+{
+    "type": "meshcentral",
+    "url": "https://<meshcentralservers_fqdn_or_ipaddr>:<port>/",
+    "user": "meshcentral_username",
+    "pass": "meshcentral_password"
+}

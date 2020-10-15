@@ -1,0 +1,5 @@
+{
+    "type": "activedge",
+    "url": "https://<activedgempsservers_fqdn_or_ipaddr>:<port>/",
+    "mpsapikey": "APIKEYFORMPS123!"
+}
