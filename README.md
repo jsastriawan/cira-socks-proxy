@@ -1,6 +1,6 @@
 # cira-socks-proxy
 
-Tunneling WSMAN and REDIR over Meshcentral webrelay via local socks proxy
+Tunneling WSMAN and REDIR over Meshcentral webrelay via local socks proxy.
 
 Note: This is assuming AMT device IP address are unique. To ensure each machine is unique, hostname should be the nodeid or UUID. 
 
@@ -53,10 +53,16 @@ $ npm i
 
 ## Usage
 
-Start the server. By default, server listens on port 1080 !!!
+Start the server. By default, server listens on port 1080 !!! Enjoy!!!
 
 ```
 $ node main.js
 ```
 
-Enjoy!!!
+### TODO
+
+1. On demand or periodic connectednode update.
+
+2. Add sample client application code.
+
+3. Add Authentication logic to the socks proxy.
