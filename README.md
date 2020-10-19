@@ -2,7 +2,7 @@
 
 Tunneling WSMAN and REDIR over Meshcentral webrelay via local socks proxy
 
-Note: This is assuming IP address are unique. To ensure each machine is unique, hostname should be the nodeid or UUID. 
+Note: This is assuming AMT device IP address are unique. To ensure each machine is unique, hostname should be the nodeid or UUID. 
 
 
 ## Setup
