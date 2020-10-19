@@ -22,30 +22,32 @@ $ npm i
 
 ### Prerequisites
 
-Create config.json file in private folder (within root folder). Follow the format of private/meshcentral_sample_config.json.
+1. Create config.json file in private folder (within root folder). Follow the format of private/meshcentral_sample_config.json.
+
 
 #### Sample config.json for MeshCentral
 
-```json
-{
-    "type": "meshcentral",
-    "url": "https://meshcentral.com",
-    "user": "my@username!23",
-    "pass": "my@Password$053"
-}
+    ```json
+    {
+        "type": "meshcentral",
+        "url": "https://meshcentral.com",
+        "user": "my@username!23",
+        "pass": "my@Password$053"
+    }
 
-```
+    ```
 
-#### Sample config.json for ActivEdge MPS
+    #### Sample config.json for ActivEdge MPS
 
-```json
-{
-    "type": "activedge",
-    "url": "https://activedgempsserver.com:3000",
-    "mpsapikey": "APIKEYFORMPS123!"
-}
+    ```json
+    {
+        "type": "activedge",
+        "url": "https://activedgempsserver.com:3000",
+        "mpsapikey": "APIKEYFORMPS123!"
+    }
 
-```
+    ```
+2. Make sure that MeshCentral MPS or ActivEdge MPS is running.
 
 ## Usage
 
