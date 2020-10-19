@@ -9,7 +9,7 @@ Note: This is assuming IP address are unique. To ensure each machine is unique, 
 
 ### Requirements
 
-* Node 12.19.0 (LTS) : https://nodejs.org/en/download/
+* Node 12.19.0 (LTS) and above : https://nodejs.org/en/download/
 
 * Git : https://git-scm.com/downloads
 
@@ -27,27 +27,29 @@ $ npm i
 
 #### Sample config.json for MeshCentral
 
-    ```json
-    {
-        "type": "meshcentral",
-        "url": "https://meshcentral.com",
-        "user": "my@username!23",
-        "pass": "my@Password$053"
-    }
+ ```json
+{
+    "type": "meshcentral",
+    "url": "https://meshcentral.com",
+    "user": "my@username!23",
+    "pass": "my@Password$053"
+}
 
-    ```
+```
 
-    #### Sample config.json for ActivEdge MPS
+#### Sample config.json for ActivEdge MPS
 
-    ```json
-    {
-        "type": "activedge",
-        "url": "https://activedgempsserver.com:3000",
-        "mpsapikey": "APIKEYFORMPS123!"
-    }
+```json
+{
+    "type": "activedge",
+    "url": "https://activedgempsserver.com:3000",
+    "mpsapikey": "APIKEYFORMPS123!"
+}
 
-    ```
+```
+
 2. Make sure that MeshCentral MPS or ActivEdge MPS is running.
+
 
 ## Usage
 
